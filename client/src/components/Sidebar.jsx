@@ -85,7 +85,7 @@ export default function Sidebar() {
             >
               <Sparkles className="w-4 h-4 text-white" />
             </div>
-            <span className="font-display font-bold text-sm tracking-tight text-gradient-purple">Synthara</span>
+            <span className="font-display font-bold text-sm tracking-tight text-gradient-purple">Sasi</span>
           </div>
         </div>
 

@@ -73,7 +73,7 @@ export default function Login() {
       setLoading(true);
       try {
         await login(email, password);
-        toast.success('Welcome back to Synthara');
+        toast.success('Welcome back to Sasi');
       } catch (err) {
         const msg = getAuthErrorMessage(err, 'Login failed');
         setError(msg);
@@ -130,7 +130,7 @@ export default function Login() {
           <h1 className="font-display text-3xl font-bold tracking-tight text-[color:var(--text)]">
             Welcome to{' '}
             <span className="text-gradient" style={{ backgroundSize: '200% 200%' }}>
-              Synthara
+              Sasi
             </span>
           </h1>
           <p className="text-[color:var(--text-muted)] mt-1.5 text-sm font-cormorant italic text-lg">AI that resonates with your world</p>
@@ -370,7 +370,7 @@ export default function Login() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
         >
-          &copy; {new Date().getFullYear()} Synthara. All rights reserved.
+          &copy; {new Date().getFullYear()} Sasi. All rights reserved.
         </motion.p>
       </div>
     </div>

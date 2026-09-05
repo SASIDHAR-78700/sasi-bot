@@ -166,7 +166,11 @@ exports.sendMessage = async (req, res) => {
 
     // Build message history for Groq API (bounded to the most recent messages)
     const messagesForGroq = [
-      { role: 'system', content: 'You are a helpful AI assistant.' },
+      {
+        role: 'system',
+        content:
+          'You are Sasi, a helpful AI assistant. When the user calls you Sasi or addresses you by that name, respond naturally and acknowledge them as Sasi.',
+      },
       ...conversation.messages.slice(-MAX_HISTORY_MESSAGES).map((msg) => ({
         role: msg.role,
         content: msg.content,

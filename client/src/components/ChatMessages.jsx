@@ -216,7 +216,7 @@ function MessageCard({ message, isUser, isStreaming }) {
               className="text-xs font-semibold"
               style={{ color: isUser ? 'var(--text-faint)' : 'var(--text-muted)' }}
             >
-              {isUser ? 'You' : 'Synthara'}
+              {isUser ? 'You' : 'Sasi'}
             </span>
             {!isUser && (
               <span
@@ -345,7 +345,7 @@ export default function ChatMessages() {
             <Sparkles className="w-10 h-10 text-white" />
           </motion.div>
           <h2 className="font-display text-2xl font-bold text-gradient mb-2">Start a conversation</h2>
-          <p className="text-[color:var(--text-muted)]">Type a message below to begin chatting with Synthara.</p>
+          <p className="text-[color:var(--text-muted)]">Type a message below to begin chatting with Sasi.</p>
           <div className="mt-8 flex items-center justify-center gap-2 text-[color:var(--text-faint)] flex-wrap">
             <kbd className="px-2.5 py-1 text-xs rounded-lg border text-[color:var(--text-muted)] font-medium shadow-sm" style={{ background: 'var(--card)', borderColor: 'var(--card-border)' }}>
               Enter

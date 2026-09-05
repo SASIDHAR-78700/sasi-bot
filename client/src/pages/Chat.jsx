@@ -179,7 +179,7 @@ function ChatContent() {
                     ? activeConversation.title?.length > 35
                       ? activeConversation.title.substring(0, 35) + '...'
                       : activeConversation.title
-                    : 'Synthara'}
+                    : 'Sasi'}
                 </h1>
                 <p className="text-xs flex items-center gap-1.5" style={{ color: 'var(--text-faint)' }}>
                   <span className="w-1.5 h-1.5 rounded-full bg-[color:var(--accent)] animate-ping-slow" />

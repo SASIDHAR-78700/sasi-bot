@@ -120,7 +120,7 @@ if (missingEnvVars.length > 0) {
 // In production, the frontend is hosted separately
 if (process.env.NODE_ENV === 'production') {
   app.get('/', (req, res) => {
-    res.json({ message: 'Synthara API is running. Frontend is hosted separately.' });
+    res.json({ message: 'Sasi API is running. Frontend is hosted separately.' });
   });
 }
 
@@ -130,7 +130,7 @@ mongoose
   .then(() => {
     console.log('✅ Connected to MongoDB');
     const server = app.listen(PORT, () => {
-      console.log(`🚀 Synthara server running on port ${PORT}`);
+      console.log(`🚀 Sasi server running on port ${PORT}`);
     });
 
     // Graceful shutdown: close HTTP server and DB connection on SIGINT/SIGTERM

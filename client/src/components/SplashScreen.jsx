@@ -6,7 +6,7 @@ const taglines = [
   "AI that resonates with your world",
   "Where ideas meet intelligence",
   "Your creative companion",
-  "Think bigger, with Synthara",
+  "Think bigger, with Sasi",
 ];
 
 const features = [
@@ -168,7 +168,7 @@ export default function SplashScreen({ onComplete }) {
             transition={{ delay: 0.3, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
             <span className="text-gradient" style={{ backgroundSize: '200% 200%' }}>
-              Synthara
+              Sasi
             </span>
           </motion.h1>
 
@@ -351,7 +351,7 @@ export default function SplashScreen({ onComplete }) {
       >
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-6 text-xs" style={{ color: 'rgba(107, 91, 138, 0.35)' }}>
-            <span>&copy; {new Date().getFullYear()} Synthara</span>
+            <span>&copy; {new Date().getFullYear()} Sasi</span>
             <span className="hidden sm:inline">Built with passion</span>
           </div>
           <div className="flex items-center gap-6">
