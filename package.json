@@ -1,0 +1,9 @@
+{
+  "name": "anpa-ai-chatbot",
+  "version": "1.0.0",
+  "description": "ANPA AI Chatbot - Full Stack MERN App",
+  "scripts": {
+    "build": "cd server && npm install && cd ../client && npm install && npm run build",
+    "start": "node server/server.js"
+  }
+}
